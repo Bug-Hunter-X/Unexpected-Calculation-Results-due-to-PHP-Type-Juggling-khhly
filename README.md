@@ -1,0 +1,1 @@
+This example demonstrates a common error in PHP: type juggling. The `calculateSum` function attempts to sum an array of numbers; however, it implicitly converts the string '4' to an integer which can cause unexpected results. The solution shows how to avoid this error using type hinting and strict comparison.
